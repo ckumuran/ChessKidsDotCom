@@ -98,8 +98,6 @@ The engine can:
 
 </div>
 
----
-
 <div align="center">
 
 ### Working Demo
