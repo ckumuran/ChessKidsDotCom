@@ -98,8 +98,6 @@ The engine can:
 
 <div align="center">
 
-### ♞ Play. Learn. Give up. Repeat.
-
-### Built by C. Kumaran
+### Built by C. Kumaran ♞
 
 </div>
