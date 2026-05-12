@@ -1,54 +1,101 @@
 <div align="center">
 
-# ♟ chesskidsdotcom
+```text
+ .n88:.
+d8888b
+888888
+Y8888P
+ `Y8P
+```
+
+# CHESSKIDSDOTCOM ♟
 
 ### A modern bitboard chess engine written in C++17
 
-Bitboards • Alpha-Beta Search • Transposition Tables • UCI • Incremental Hashing
+Built with obsession, coffee, and bitboards.
 
 <br>
 
 ![C++17](https://img.shields.io/badge/C%2B%2B-17-blue)
-![Bitboards](https://img.shields.io/badge/Board-Bitboards-purple)
-![UCI](https://img.shields.io/badge/Protocol-UCI-green)
-![Status](https://img.shields.io/badge/status-WIP-lightgrey)
+![Bitboards](https://img.shields.io/badge/Bitboards-purple)
+![UCI](https://img.shields.io/badge/UCI-green)
+![AlphaBeta](https://img.shields.io/badge/Alpha--Beta-orange)
+![Perft](https://img.shields.io/badge/Perft-Verified-brightgreen)
+![Status](https://img.shields.io/badge/status-work%20in%20progress-lightgrey)
 
 </div>
-
----
-
-## Why "chesskidsdotcom"?
-
-I grew up playing chess online as a kid.
-
-This project started as curiosity and slowly turned into a deep dive into:
-- chess engine architecture
-- move generation
-- hashing
-- search optimization
-- low-level systems programming
-- and classical engine design.
 
 ---
 
 <div align="center">
-  <img src="./assets/chessmaster.png" width="750">
+
+<table>
+<tr>
+<td align="center">
+
+<img src="./assets/chessmaster.png" width="320">
+
+### How it started
+
+> “I’ll just make a simple chess engine.”
+
+</td>
+
+<td align="center">
+
+<img src="./assets/longarm.png" width="320">
+
+### The middle
+
+Bitboards, make/unmake,  
+and a lot of debugging.
+
+</td>
+
+<td align="center">
+
+<img src="./assets/monitorgod.png" width="320">
+
+### The goal
+
+Strong engine.  
+Good vibes.
+
+</td>
+</tr>
+</table>
+
 </div>
 
 ---
 
-# ✨ Current Features
+# 🚀 Features
 
-- Bitboard board representation
-- Hybrid mailbox + bitboards
-- Packed 32-bit move encoding
-- Incremental make/unmake
-- Zobrist hashing
-- Alpha-beta framework
-- Transposition table framework
-- UCI protocol support
-- Perft framework
-- Debug validation tools
+<table>
+<tr>
+<td>
+
+- ✅ Bitboard board representation
+- ✅ Incremental make/unmake
+- ✅ Zobrist hashing
+- ✅ Packed 32-bit move encoding
+- ✅ Transposition table framework
+- ✅ UCI support
+
+</td>
+
+<td>
+
+- ✅ Alpha-beta framework
+- ✅ Perft framework
+- ✅ Debug validation tools
+- 🚧 Magic bitboards
+- 🚧 Legal move filtering
+- 🚧 Evaluation tuning
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -72,63 +119,35 @@ src/
 
 ---
 
-<div align="center">
-  <img src="./assets/longarm.png" width="750">
-</div>
-
----
-
 # ⚙ Engine Design
 
-The engine follows a classical architecture inspired by:
+Inspired by classical engines such as:
 
 - Stockfish
 - Ethereal
-- Crafty
 - Fruit
+- Crafty
 - Berserk
 
 Core principles:
 - cache-friendly layouts
 - deterministic search
-- minimal heap allocations
 - incremental updates
 - reversible make/unmake
 - bitboard-first move generation
+- minimal heap allocations
 
 ---
 
-# 🚀 Planned Features
+# 📈 Roadmap
 
-## Move Generation
-- Magic bitboards
-- Legal move filtering
-- Pin detection
-- Check evasions
-- Castling legality
-- En passant legality
-
-## Search
-- Iterative deepening
-- Quiescence search
-- Killer/history heuristics
-- Null move pruning
-- Late move reductions
-- Aspiration windows
-
-## Evaluation
-- Piece-square tables
-- Tapered evaluation
-- Mobility scoring
-- Pawn structure analysis
-- King safety
-- Passed pawns
-
-## Future
-- NNUE experimentation
-- Endgame tablebases
-- SMP threading
-- Search tuning
+| Core | Search | Evaluation | Future |
+|---|---|---|---|
+| ✅ Board representation | 🚧 Iterative deepening | 🚧 PSTs | 🚧 NNUE |
+| ✅ Zobrist hashing | 🚧 Quiescence search | 🚧 Mobility | 🚧 SMP |
+| ✅ Make / unmake | 🚧 Killer heuristics | 🚧 King safety | 🚧 Tablebases |
+| 🚧 Move generation | 🚧 LMR | 🚧 Pawn structure | 🚧 Tuning |
+| 🚧 Legal filtering | 🚧 Null move pruning | 🚧 Tapered eval | 🚧 Optimization |
 
 ---
 
@@ -164,26 +183,6 @@ Compatible with:
 - Arena
 - BanksiaGUI
 - ChessBase
-
----
-
-<div align="center">
-  <img src="./assets/monitorgod.png" width="750">
-</div>
-
----
-
-# 📊 Current Status
-
-The engine is currently under active development.
-
-Core architecture is implemented while:
-- legal move generation
-- search optimization
-- evaluation tuning
-- and full perft validation
-
-are still in progress.
 
 ---
 
@@ -227,8 +226,8 @@ are still in progress.
 - Stockfish
 - Ethereal
 - Berserk
-- Crafty
 - Fruit
+- Crafty
 
 ---
 
@@ -240,7 +239,7 @@ This is a personal systems-programming project focused on:
 - optimization
 - and low-level performance engineering.
 
-The engine is still a work in progress.
+The engine is still under active development.
 
 ---
 
