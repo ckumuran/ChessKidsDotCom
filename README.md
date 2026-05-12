@@ -24,7 +24,7 @@
 
 <img src="./assets/chessmaster.png" width="320">
 
-### I can beat a computer at chess
+### I am the Chess Master
 
 </td>
 
@@ -32,7 +32,7 @@
 
 <img src="./assets/longarm.png" width="320">
 
-### Hold my pawn
+### Take THAT !!
 </td>
 
 <td align="center">
