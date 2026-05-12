@@ -77,7 +77,7 @@ The engine can:
 - generate legal moves
 - search future positions
 - evaluate positions
-- and communicate with external chess GUIs.
+- communicates with external chess GUIs.
 
 ---
 
@@ -93,7 +93,6 @@ The engine can:
 - move generation
 - perft testing/debugging
 - UCI communication
-- modular engine structure
 
 ---
 
