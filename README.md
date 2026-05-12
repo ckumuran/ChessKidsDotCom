@@ -52,11 +52,6 @@
 
 #  Features
 
-<table>
-<tr>
-
-<td>
-
 - Bitboard board representation
 - Hybrid mailbox + bitboards
 - Packed 32-bit move encoding
@@ -70,63 +65,8 @@
 - Modular engine architecture
 - Deterministic search structure
 
-</td>
-
-</tr>
-</table>
-
 ---
 
-# Architecture
-
-```text
-src/
-├── attacks.cpp
-├── board.cpp
-├── debug.cpp
-├── eval.cpp
-├── makemove.cpp
-├── movegen.cpp
-├── perft.cpp
-├── search.cpp
-├── tt.cpp
-├── uci.cpp
-├── zobrist.cpp
-└── main.cpp
-```
-
-# Repository Structure
-
-```text
-.
-├── assets/
-├── attacks.cpp
-├── attacks.h
-├── bitboard.h
-├── board.cpp
-├── board.h
-├── debug.cpp
-├── debug.h
-├── eval.cpp
-├── eval.h
-├── main.cpp
-├── makemove.cpp
-├── makemove.h
-├── move.h
-├── movegen.cpp
-├── movegen.h
-├── perft.cpp
-├── perft.h
-├── search.cpp
-├── search.h
-├── tt.cpp
-├── tt.h
-├── types.h
-├── uci.cpp
-├── uci.h
-├── zobrist.cpp
-└── zobrist.h
-```
 
 ---
 
