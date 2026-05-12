@@ -24,20 +24,22 @@
 
 <img src="./assets/chessmaster.png" width="320">
 
+### I can beat a computer at chess
+
 </td>
 
 <td align="center">
 
 <img src="./assets/longarm.png" width="320">
 
+### Hold my pawn
 </td>
 
 <td align="center">
 
 <img src="./assets/monitorgod.png" width="320">
 
-Chess engine.
-Done.
+### “Amateurs.”
 
 </td>
 
