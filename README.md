@@ -2,12 +2,10 @@
 
 # ♟ chesskidsdotcom
 
-### A modern bitboard chess engine written in C++17.
+### A modern bitboard chess engine written in C++17
 
 Built with:
-bitboards, alpha-beta pruning, transposition tables,
-incremental hashing, UCI support,
-and an unhealthy amount of debugging.
+bitboards • alpha-beta pruning • transposition tables • incremental hashing • UCI
 
 <br>
 
@@ -15,7 +13,7 @@ and an unhealthy amount of debugging.
 ![Bitboards](https://img.shields.io/badge/Board-Bitboards-purple)
 ![UCI](https://img.shields.io/badge/Protocol-UCI-green)
 ![AlphaBeta](https://img.shields.io/badge/Search-AlphaBeta-orange)
-![WIP](https://img.shields.io/badge/status-work%20in%20progress-lightgrey)
+![Status](https://img.shields.io/badge/status-WIP-lightgrey)
 
 </div>
 
@@ -25,22 +23,22 @@ and an unhealthy amount of debugging.
 
 I grew up playing chess online as a kid.
 
-This project started as:
-> “it would be cool to make a chess engine.”
+This project started as curiosity:
+> “How hard could it be to make a chess engine?”
 
-Now it has evolved into:
+Now it’s become a deep dive into:
 - move generation
-- transposition tables
-- perft debugging
-- cache optimization
-- incremental make/unmake
-- and staring at illegal en passant positions for several hours.
+- search optimization
+- hashing
+- engine architecture
+- low-level performance engineering
+- and classical chess programming techniques.
 
 ---
 
 <div align="center">
 
-<img src="assets/chessmaster.png" width="700"/>
+<img src="assets/chessmaster.png" width="750"/>
 
 </div>
 
@@ -83,7 +81,7 @@ src/
 
 <div align="center">
 
-<img src="assets/longarm.png" width="700"/>
+<img src="assets/longarm.png" width="750"/>
 
 </div>
 
@@ -91,7 +89,7 @@ src/
 
 # ⚙ Engine Design
 
-The engine follows a classical chess engine architecture inspired by:
+The engine follows a classical architecture inspired by engines such as:
 
 - Stockfish
 - Ethereal
@@ -99,11 +97,11 @@ The engine follows a classical chess engine architecture inspired by:
 - Fruit
 - Berserk
 
-Core principles:
+Core design principles:
 
 - cache-friendly layouts
-- minimal heap allocations
 - deterministic search
+- minimal heap allocations
 - incremental updates
 - fast reversible make/unmake
 - bitboard-first move generation
@@ -182,7 +180,7 @@ Compatible with:
 
 <div align="center">
 
-<img src="assets/finalform.png" width="700"/>
+<img src="assets/finalform.png" width="750"/>
 
 </div>
 
@@ -252,9 +250,17 @@ This is a personal systems-programming project focused on:
 - chess engine architecture
 - search algorithms
 - optimization
-- low-level performance engineering
+- and low-level performance engineering.
 
-It is still a work in progress.
+The engine is still a work in progress.
+
+---
+
+<div align="center">
+
+<img src="assets/monitorgod.png" width="750"/>
+
+</div>
 
 ---
 
