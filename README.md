@@ -2,10 +2,6 @@
 
 # ♟ CHESSKIDSDOTCOM
 
-### A modern bitboard chess engine written in C++17
-
-Built with obsession, coffee, and bitboards.
-
 <br>
 
 ![C++17](https://img.shields.io/badge/C%2B%2B-17-blue)
@@ -28,20 +24,11 @@ Built with obsession, coffee, and bitboards.
 
 <img src="./assets/chessmaster.png" width="320">
 
-### How it started
-
-> “I’ll just make a simple chess engine.”
-
 </td>
 
 <td align="center">
 
 <img src="./assets/longarm.png" width="320">
-
-### The middle
-
-Bitboards, make/unmake,  
-and a lot of debugging.
 
 </td>
 
@@ -49,10 +36,8 @@ and a lot of debugging.
 
 <img src="./assets/monitorgod.png" width="320">
 
-### The goal
-
-Strong engine.  
-Good vibes.
+Chess engine.
+Done.
 
 </td>
 
