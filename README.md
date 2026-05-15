@@ -98,11 +98,11 @@ Alpha-beta search ([`search.cpp`](search.cpp)) — explores the game tree and cu
 
 ## Demo
 
-The board renders after 1.e4 e5 Nf3, the UCI handshake completes, a depth-5 search recommends Nxe5, and perft 4 validates move generation with 197,281 nodes at 164K NPS.
-
 <div align="center">
 
 ![Engine in action](assets/finaloutputs.png)
+
+The board renders after 1.e4 e5 Nf3, the UCI handshake completes, a depth-5 search recommends Nxe5, and perft 4 validates move generation with 197,281 nodes at 164K NPS.
 
 </div>
 
