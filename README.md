@@ -14,7 +14,6 @@ A chess engine. Written from scratch in C++17.This one has bitboards, move gener
 There are 2 types of chess engines out there:
 
 1, The ones that are basically a homework assignment with piece-moving logic. 
-
 2. Stockfish, which is about 500,000-line codebase engine, that I could never understand let alone make.
 This is neither. It's a chess engine with real data structures, real search, real performance thinking — that a normal person can make.
 
