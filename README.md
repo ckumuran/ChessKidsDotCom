@@ -2,7 +2,7 @@
 
 # ♟ CHESSKIDSDOTCOM
 
-![Amateurs](assets/chessmaster.png)
+![Amateurs](assets/monitorgod.png)
 </div>
 
 ---
