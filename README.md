@@ -98,7 +98,7 @@ Alpha-beta search ([`search.cpp`](search.cpp)) — explores the game tree and cu
 
 ## Demo
 
-This is it running — board display, UCI handshake, depth 5 search on the King's Knight opening, and perft 4 counting 197,281 nodes in 1.2 seconds.
+The board renders after 1.e4 e5 Nf3, the UCI handshake completes, a depth-5 search recommends Nxe5, and perft 4 validates move generation with 197,281 nodes at 164K NPS.
 
 <div align="center">
 
