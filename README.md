@@ -1,8 +1,12 @@
 <div align="center">
-#♟ CHESSKIDSDOTCOM
+
+# ♟ CHESSKIDSDOTCOM
+
 ![Amateurs](assets/chessmaster.png)
 
-Yeah. Let's talk about what a real chess engine looks like.
+*Yeah. Let's talk about what a real chess engine looks like.*
+
+</div>
 
 ---
 
@@ -93,7 +97,11 @@ Alpha-beta with a transposition table ([`search.cpp`](search.cpp), [`tt.h`](tt.h
 
 ## Demo
 
+<div align="center">
+
 ![Engine in action](assets/finaloutput.png)
+
+</div>
 
 ---
 
@@ -124,3 +132,11 @@ Flat structure. It's a small project and the clarity is worth more than nested d
 Built because I like understanding how things work at the bottom. Chess engines sit at an interesting intersection — bit manipulation, search algorithms, careful memory layout, a protocol that connects to real tooling. Good problem. Worth building from scratch.
 
 This is what that looks like.
+
+---
+
+<div align="center">
+
+♟ Built by [c.kumaran](https://github.com/c.kumaran)
+
+</div>
