@@ -102,7 +102,7 @@ This is it running — board display, UCI handshake, depth 5 search on the King'
 
 <div align="center">
 
-![Engine in action](assets/finaloutput.png)
+![Engine in action](assets/finaloutputs.png)
 
 </div>
 
